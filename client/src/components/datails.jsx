@@ -37,9 +37,9 @@ const Details = () => {
                         {Array.isArray(datails.types) ?
                          datails.types.map(t => (
                          <h3 className="pokemon_tipo"> Tipo: {t.name}</h3>)) : <h1>Sin Tipos</h1>}
-                        <h3>Peso: {datails.createdInDb ? 250 : datails.weight}</h3>
-                        <h3>Altura: {datails.createdInDb ? 250 : datails.height}</h3>
-                        <p>Vida: {datails.createdInDb ? 250 : datails.vida}</p>
+                        <h3>Peso: {datails.createdInDb ? datails.peso : datails.weight}</h3>
+                        <h3>Altura: {datails.createdInDb ? datails.altura : datails.height}</h3>
+                        <p>Vida: {datails.createdInDb ? datails.life : datails.vida}</p>
                     </div>
                     
                 </div> : <h1>No se encontraron detalles</h1>
