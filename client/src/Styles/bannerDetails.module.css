@@ -1,0 +1,10 @@
+.contenedor {
+  background-color: rgb(44, 44, 44);
+  width: 98.126%;
+  padding: 12px;
+  margin: 0px;
+  position: fixed;
+  top: 530px;
+  left: 0px;
+  display: flex;
+}

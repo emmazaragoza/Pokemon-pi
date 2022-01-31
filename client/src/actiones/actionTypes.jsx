@@ -1,0 +1,9 @@
+export const GET_POKEMON = 'GET_POKEMON';
+export const GET_POKE_NAME = 'GET_POKE_NAME';
+export const GET_POKE_TYPES = 'GET_POKE_TYPES';
+export const POST_POKEMON = 'POST_POKEMON';
+export const GET_POKE_DETAILS = 'GET_POKE_DETAILS';
+export const CREATED_OR_EXIST = " CREATED_OR_EXIST";
+export const FILTER_TIPOS = 'FILTER_TIPOS';
+// export const ORDENADO_POR = 'ORDENADO_POR';
+export const LOADING = 'LOADING';

@@ -1,0 +1,35 @@
+.contenedor {
+  height: 100px;
+  width: 740px;
+  display: inline-flex;
+  position: absolute;
+  top: 108px;
+  padding: 0px;
+  bottom: -10px;
+  left: 250px;
+  border-radius: 100px;
+  background-color: rgba(66, 65, 65, 0.623);
+}
+
+.filters {
+  display: flow-root;
+  width: 186px;
+}
+
+.h3 {
+  color: brown;
+  font-size: 17px;
+}
+.select {
+  width: 190px;
+}
+
+.h6 {
+  color: rgba(169, 169, 169, 12.753);
+  width: 119px;
+  font-family: cursive;
+  font-size: 1rem;
+  background-color: initial;
+  border-radius: 6px;
+  border-color: chartreuse;
+}

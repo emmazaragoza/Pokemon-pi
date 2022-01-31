@@ -1,0 +1,61 @@
+.cont {
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor {
+  background-color: rgb(44, 44, 44);
+  width: 98.126%;
+  padding: 12px;
+  margin: 0px;
+  display: flex;
+  height: 80px;
+}
+
+.pikachu {
+  position: relative;
+  display: flex;
+  width: 54px;
+  height: 54px;
+  top: 12px;
+  left: 44px;
+}
+.contPika {
+  width: 100px;
+  height: 100px;
+}
+
+.h1 {
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  color: rgb(163, 162, 161);
+  left: 130px;
+}
+.h1a {
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  color: rgb(163, 162, 161);
+  left: 510px;
+}
+.conth1 {
+  position: absolute;
+  display: flex;
+  height: 63px;
+  left: -75px;
+  justify-content: center;
+  width: 761px;
+}
+
+.linkedin {
+  position: absolute;
+  display: flex;
+  width: 54px;
+  height: 54px;
+  right: 56px;
+}
+.contLink {
+  right: 10px;
+  width: 100px;
+}

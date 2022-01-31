@@ -1,0 +1,174 @@
+.body {
+  background-image: url("../img/fondo-negro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contform {
+  position: absolute;
+  justify-content: center;
+  height: 0px;
+  padding: 300px;
+  padding-left: 416px;
+  padding-bottom: 543px;
+  padding-top: 11px;
+  margin: 0px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.863),
+    rgba(251, 103, 3, 0.698)
+  );
+  border: 2px solid rgb(240, 53, 6);
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}
+
+.formulario {
+  display: flex;
+  position: relative;
+  font-family: "Raleway", ui-sans-serif;
+  font-size: 20px;
+  top: 10px;
+  right: 317px;
+}
+
+.create {
+  position: relative;
+  margin-top: 0px;
+}
+
+.form {
+  display: flex;
+  text-align: end;
+  justify-content: space-around;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.btnhome {
+  position: absolute;
+  display: inline-block;
+  line-height: 1.5;
+  right: 28px;
+  top: 15px;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 153px;
+  height: 36px;
+  background-color: rgba(251, 103, 3, 0.698);
+  -webkit-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0rem 0rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+.btnhome:active {
+  transform: scale(0.9);
+}
+
+.formh1 {
+  position: absolute;
+  display: inline;
+  font-family: cursive;
+  font-size: 30px;
+  left: 413px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-top: -21px;
+  margin-left: -400px;
+}
+.inputsForm {
+  font-size: 18px;
+  height: 20px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 20px 10px 0 10px;
+  background: #f5f4f3;
+  border: 1px solid #5a5959;
+  letter-spacing: 1px;
+  width: 250px;
+}
+
+.labelTitle {
+  position: initial;
+  display: inline;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-left: -35px;
+  text-transform: uppercase;
+}
+
+.formInout {
+  display: table-column-group;
+  position: fixed;
+  top: 108px;
+  left: 688px;
+  flex-wrap: wrap;
+}
+
+.contInput {
+  position: absolute;
+  flex-direction: row-reverse;
+  display: block;
+  text-align: start;
+  font-size: 26px;
+  column-count: 2;
+  column-gap: 27px;
+  top: 138px;
+  margin-top: 22px;
+  height: 408px;
+  width: 289px;
+  right: 100px;
+  left: 658px;
+}
+
+.h1input {
+  position: relative;
+  height: 105px;
+  width: 288px;
+  right: -626px;
+  bottom: 540px;
+  margin: 10px;
+}
+
+.btnsubmit {
+  position: absolute;
+  display: inline-block;
+  line-height: 1.5;
+  margin-top: 30px;
+  right: -121px;
+  top: 441px;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 153px;
+  height: 36px;
+  background-color: rgba(4, 180, 4, 0.637);
+  -webkit-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0rem 0rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btnsubmit:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,27 @@
+.contPage {
+  height: 27px;
+  width: 100px;
+  display: inline-flex;
+  position: absolute;
+  top: 130px;
+  padding: 10px;
+  bottom: -10px;
+  left: 579px;
+  float: left;
+}
+
+.filtro {
+  display: flow-root;
+  margin: 6px;
+}
+
+.btnPage {
+  border-radius: 100px;
+  top: 90px;
+  font-size: larger;
+  width: 50px;
+  background-color: blueviolet;
+  position: relative;
+  display: block;
+  right: 83px;
+}
